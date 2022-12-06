@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../Project';
 import projectList from "../../projectList.json";
 
-const Portfolio = () => {
+const Registries = () => {
         
     return (
         <section>
@@ -17,4 +17,4 @@ const Portfolio = () => {
     )
 };
 
-export default Portfolio;
+export default Registries;;
