@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
-import Portfolio from "./components/Portfolio";
-import Contact from './components/Contact';
+import Registries from "./components/Registries";
 import Footer from './components/Footer';
-import Resume from './components/Resume';
 import './App.css';
 
 
@@ -13,7 +11,7 @@ function App() {
   useEffect(() => {
     document.title = currentPage;
   })
-  const menuItems = ['About', 'Registries', 'Contact', 'Resume' ];
+  const menuItems = ['About', 'Registries'];
   const [currentPage, setCurrentPage] = useState(menuItems[0]);
   // switch statement here 
   const renderPage = () => {
@@ -21,20 +19,11 @@ function App() {
     switch(currentPage) {
       
       case 'Registries':
-        return <Portfolio></Portfolio>
-        break;
-
-      case 'Contact':
-        return <Contact></Contact>
-        break;
-
-      case 'Resume':
-        return <Resume></Resume>
-        break;
+        return <Registries></Registries>
 
       default:
         return <About></About>
-        break;
+        
     }
   }
 
