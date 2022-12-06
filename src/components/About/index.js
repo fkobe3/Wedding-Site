@@ -4,10 +4,10 @@ import aboutPic from "../../assets/images/Pankratz Photo With Chase 2018.jpg";
 const About = () => {
     return (
         <section>
-            <h1>About me</h1>
+            <h1>About Us</h1>
             <img src={aboutPic} className="profile" style={{ width: "100%"}} alt="Profile" />
 
-            <p> Teresa and I met in 2015 in my freshman year (her sophomore year) at Albright College.
+            <p> We met in 2015 in our freshman and sophomore year at Albright College.
              During that time we both joined Greek life, got through countless finals, sleepless nights, 
              and the Albright Plague (if you know, you know). Finally in 2018, she said yes.
             </p>
@@ -17,7 +17,7 @@ const About = () => {
             year we decided that it was no longer a "we'll do it later" thing and time to actually set a date. 
             </p>
             <p>
-            So we are getting married! Next year, November 20, 2023. We will be eloping instead of holding an 
+            <strong>So we are getting married!</strong> Next year, November 20, 2023. We will be eloping instead of holding an 
             official ceremony. If you want to help us with either gifts for the house, honeymoon, or any other way,
             There is a page with links to registries, as well as a link to a page of pictures of us, and a venmo/paypal 
             at the bottom. Nothing is required, but anything is appreciated. Thank you all for being a part of our 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Nav = (props) => {
     
@@ -13,7 +13,7 @@ const Nav = (props) => {
         <header>
             <div>
             <h1>
-                Frank Kobe
+                Our Wedding
             </h1>
             </div>
             <div>

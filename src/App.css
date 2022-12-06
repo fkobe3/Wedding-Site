@@ -3,12 +3,12 @@
   padding: 0;
 }
 body {
-  background-color: var(--section-bg-color);
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #cea9d6, #bb31d8);;
+  overflow: hidden;
 }
 
-:root {
-  --section-bg-color: #99aed1;
-}
 /* --------- header styles --------- */
 header {
   height: 100px;
@@ -45,22 +45,12 @@ section {
   /* width: 100%; */
   padding: 20px 40px;
   margin: 0 auto;
-  background-color: var(--section-bg-color);
+  background-image: linear-gradient(to right, #febab8,  #fde513);
 }
 
 section p {
-  /* width: 95%; */
   margin: 12px auto;
   line-height: 1.4em;
-}
-
-p a {
-  text-decoration: none;
-  color: rgb(3, 8, 77);
-}
-
-p a:hover {
-  text-shadow: 2px 2px 5px #d8caca;
 }
 
 .profile {
@@ -113,7 +103,7 @@ p a:hover {
 }
 
 .projectLinks .projectLogo {
-  height: 24px;
+  height: 50px;
   margin: 2px 10px 0px;
 }
 
@@ -185,16 +175,6 @@ p a:hover {
   list-style: inside;
   margin: 5px 5px 10px;
 }
-/* .App {
-  text-align: center;
-  border: 2px solid red;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  border: 2px solid pink;
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -202,27 +182,11 @@ p a:hover {
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  border: 2px solid pink;
-} */
-
-/* .App-link {
-  color: #61dafb;
-} */
-
 /* --------- footer styles --------- */
 footer {
   width: 100%;
   height: 50px;
-  background-color: var(--section-bg-color);
+  background-image: linear-gradient(to right, #cea9d6, #bb31d8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,7 +194,7 @@ footer {
 }
 
 #logos {
-  height: 75%;
+  height: 100%;
 }
 
 #logos img {
