@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         // Single project component goes here
         <section>
-            <h1>Portfolio</h1>
+            <h1>Registries</h1>
             <div id="projectCards">
                 {projectList.map(project => (
                     <Project project={project}

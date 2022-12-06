@@ -1,20 +1,32 @@
 import React from 'react';
-import aboutPic from "../../assets/images/profile.jpg";
+import aboutPic from "../../assets/images/Pankratz Photo With Chase 2018.jpg";
 
 const About = () => {
     return (
         <section>
             <h1>About me</h1>
-            <img src={aboutPic} className="profile-photo" style={{ width: "100%"}} alt="Profile Photo" />
-            <p> Hello, my name is Frank. I am 25 years old, living in Raleigh, North Carolina. I have a bachelor's degree of science in Molecular Psychobiology from Albright College.
+            <img src={aboutPic} className="profile" style={{ width: "100%"}} alt="Profile" />
+
+            <p> Teresa and I met in 2015 in my freshman year (her sophomore year) at Albright College.
+             During that time we both joined Greek life, got through countless finals, sleepless nights, 
+             and the Albright Plague (if you know, you know). Finally in 2018, she said yes.
             </p>
             <p>
-            Previously, I lived in Philadelphia, Pennsylvania, where I worked in therapuetic psychology as a behavioral health technician (or BHT). 
-          Since the pandemic, I have slowly changed career paths, which is why I have gone into coding.             </p>
+            Since then, we have been through a pandemic, changes in career paths, and two different states. 
+            We always discussed the idea of marriage, but it was always a "we'll do it later" thing. Finally, this 
+            year we decided that it was no longer a "we'll do it later" thing and time to actually set a date. 
+            </p>
             <p>
-            In addition to coding though, I ran and edited a podcast, as well as also began streaming on the platform Twitch. I am also contracted to write a young adult fiction book through Webnovel.
-         I hope to use coding in combination with my bachelor's degree  in the future to eventually do large amounts of data collection and analysis, such as CDC or other government studies.
-          </p>
+            So we are getting married! Next year, November 20, 2023. We will be eloping instead of holding an 
+            official ceremony. If you want to help us with either gifts for the house, honeymoon, or any other way,
+            There is a page with links to registries, as well as a link to a page of pictures of us, and a venmo/paypal 
+            at the bottom. Nothing is required, but anything is appreciated. Thank you all for being a part of our 
+            journey so far, and we hope you have a wonderful day!
+            </p>
+            <p>
+              P.S. If you find yourself in Florida near Disney around that time next year, come say hi, whether it be
+              Disney itself or around the area, as there won't be any type of organized ceremony or reception at this time.
+            </p>
         </section>
     )
 };

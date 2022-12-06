@@ -13,14 +13,14 @@ function App() {
   useEffect(() => {
     document.title = currentPage;
   })
-  const menuItems = ['About', 'Portfolio', 'Contact', 'Resume' ];
+  const menuItems = ['About', 'Registries', 'Contact', 'Resume' ];
   const [currentPage, setCurrentPage] = useState(menuItems[0]);
   // switch statement here 
   const renderPage = () => {
     console.log("CurrentPage:", currentPage);
     switch(currentPage) {
       
-      case 'Portfolio':
+      case 'Registries':
         return <Portfolio></Portfolio>
         break;
 
